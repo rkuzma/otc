@@ -1,0 +1,1 @@
+/usr/lib/python2.7/dist-packages/cinderclient/tests/v2/test_shell.py
