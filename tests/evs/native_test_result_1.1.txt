@@ -1,2 +1,4 @@
 NATIVE TEST 1.1
-cinder --insecure list => OK 
+cinder --insecure create --name enETQuvGEH_VOLUME 5 => NOT OK 
+cinder --insecure show enETQuvGEH_VOLUME => NOT OK 
+cinder --insecure rename enETQuvGEH_VOLUME testing_rename_volume => NOT OK 

@@ -27,4 +27,7 @@ apitest cinder --insecure show ${VOLUME_NAME} 2>/dev/null
 apitest cinder --insecure rename ${VOLUME_NAME} testing_rename_volume 2>/dev/null
 
 sleep 10
+apitest cinder --insecure show testing_rename_volume  2>/dev/null
+
+sleep 10
 apitest cinder --insecure delete testing_rename_volume 2>/dev/null
