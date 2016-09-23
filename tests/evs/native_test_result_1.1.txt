@@ -1,4 +1,6 @@
 NATIVE TEST 1.1
-cinder --insecure create --name enETQuvGEH_VOLUME 5 => NOT OK 
-cinder --insecure show enETQuvGEH_VOLUME => NOT OK 
-cinder --insecure rename enETQuvGEH_VOLUME testing_rename_volume => NOT OK 
+cinder --insecure create --name echJeVmurX_VOLUME 5 => OK 
+cinder --insecure show echJeVmurX_VOLUME => OK 
+cinder --insecure rename echJeVmurX_VOLUME testing_rename_volume => OK 
+cinder --insecure show testing_rename_volume => OK 
+cinder --insecure delete testing_rename_volume => OK 
