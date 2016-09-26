@@ -18,8 +18,8 @@ apitest ()
 echo "NATIVE TEST $VER" >"native_test_result_$VER.txt"
 
 NETWORK_NAME=$(cat /dev/urandom | tr -dc 'A-Za-z' | fold -w 10 | head -n 1)_NETWORK
-SUBNET_NAME=$(cat /dev/urandom | tr -dc 'A-Za-z' | fold -w 10 | head -n 1)_PORT
-SUBNET_NAME_NEW=$(cat /dev/urandom | tr -dc 'A-Za-z' | fold -w 10 | head -n 1)_PORT
+SUBNET_NAME=$(cat /dev/urandom | tr -dc 'A-Za-z' | fold -w 10 | head -n 1)_SUBNET
+SUBNET_NAME_NEW=$(cat /dev/urandom | tr -dc 'A-Za-z' | fold -w 10 | head -n 1)_SUBNET
 
 
 apitest neutron --insecure net-create ${NETWORK_NAME} 2>/dev/null
