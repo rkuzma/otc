@@ -1,6 +1,0 @@
-NATIVE TEST 1.1
-cinder --insecure create --name ICAHmeLwkl_VOLUME 5 => OK 
-cinder --insecure snapshot-show 21631eae-0f70-46dd-8071-9ae914be0198 => OK 
-cinder --insecure backup-delete 409ea9f2-0507-49ed-9ca0-459f42b750a3 => OK 
-cinder --insecure snapshot-delete 21631eae-0f70-46dd-8071-9ae914be0198 => OK 
-cinder --insecure delete ICAHmeLwkl_VOLUME => OK 
