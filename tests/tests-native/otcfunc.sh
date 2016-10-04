@@ -1,5 +1,5 @@
 #!/bin/sh
-source VER
+source ./VER
 apitest ()
 {
     echo "$@"
