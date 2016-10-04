@@ -2,3 +2,4 @@
 2. python otcclient used in some scripts to prepare backups
 3. can we merge some tests?
 4. open points: details
+5. API endpoint v2 for cinder
