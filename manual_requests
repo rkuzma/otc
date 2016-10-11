@@ -1,0 +1,2 @@
+export OS_TOKEN=`curl  -si --insecure -H "Content-Type: application/json" -d @request.json https://10.105.87.202:443/v3/auth/tokens| awk '/X-Subject-Token/ {print $2}'`
+curl -si --insecure -H"X-Auth-Token:$OS_TOKEN" -H "Content-type: application/json" https://10.105.87.202:443/v3/projects
